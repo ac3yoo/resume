@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://localhost/dashboard/resumev2/bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name-title h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.name-title h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+}
+
+.contact-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #000000;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
