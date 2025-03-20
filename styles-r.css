@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('http://localhost/dashboard/resumev2/bg.jpg') no-repeat center fixed;
+    background: url('bg.jpg') no-repeat center fixed;
     background-size: cover;
     text-align: center;
 }
@@ -132,7 +132,7 @@ p {
     }
 
     .btn {
-        width: 100%;
+        width: 90%;
         font-size: 14px;
     }
 }
